@@ -1,5 +1,4 @@
 import(freqparcoord)
-import(data.table)
 
 importFrom("grDevices", "as.raster", "colorRampPalette", "png")
 importFrom("graphics", "axis", "lines", "par", "plot",
@@ -9,6 +8,7 @@ importFrom("utils", "head")
 importFrom(data.table,as.data.table)
 importFrom(data.table,is.data.table)
 importFrom(data.table,".N")
+importFrom(data.table,data.table)
 importFrom("stats", "complete.cases")
 importFrom("utils", "data")
 importFrom("plotly", "plot_ly")
